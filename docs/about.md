@@ -1,0 +1,7 @@
+# About Section
+WE LIVE IN A SOCIETY
+
+FORSE HO CAPITO
+
+
+

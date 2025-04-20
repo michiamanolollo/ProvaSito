@@ -1,0 +1,39 @@
+site_name: My Docs
+site_url: https://mydomain.org/mysite
+
+theme:
+  name: material
+  palette:
+
+   
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  
+        
+    
+        
+        
+  features: 
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.instant.preview
+  - navigation.tracking
+  - navigation.tabs 
+
+
+nav:
+- Home: index.md
+- About: about.md
